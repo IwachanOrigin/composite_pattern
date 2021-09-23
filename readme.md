@@ -24,6 +24,9 @@
   Compositeパターンの利用者。  
   main.cppが相当する。
 
+## Output
+![output](https://user-images.githubusercontent.com/12496951/134543589-9e351d76-2be6-4b32-987b-b3f2b31d6d75.png)
+
 ## Dependency
 - MSVC 15+
 
