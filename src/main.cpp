@@ -40,5 +40,13 @@ int main(int argc, char* argv[])
     tomura->add(new File("junk.mail", 500));
     rootdir->printList();
 
+    delete tomura;
+    delete hanako;
+    delete yuki;
+    delete usrdir;
+    delete tmpdir;
+    delete bindir;
+    delete rootdir;
+
     return 0;
 }
