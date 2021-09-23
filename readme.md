@@ -1,8 +1,8 @@
 # composite_pattern
-「増補改訂版Java言語で学ぶデザインパターン入門」のComposite Patternを参考にC++で実装し直したつもりのソリューションです。  
+「増補改訂版Java言語で学ぶデザインパターン入門」のComposite Patternを参考にC++で実装し直したつもりのソリューションです。
 動作確認はVisual Studio 2017で実施しています。
 
-## what is Composite pattern?
+## what is the Composite pattern?
 容器と中身を同一視し、再帰的な構造を形作るデザインパターンの一種。  
 これは、複数と単数の同一視とも呼ぶことが出来る。  
 つまり、複数個のものを集めてまるで1つのものであるかのように取り扱うことが出来る。
@@ -17,7 +17,7 @@
   Directoryクラスが相当する。
 
 - Componentの役  
-  Leaf役とComposite役を同一視するための役。Component役をLeaf役とComposite役のスーパークラスにすることで実現する。  
+  Leaf役とComposite役を同一視するための役。Component役をLeaf役とComposite役の基底クラスにすることで実現する。  
   Entryクラスが相当する。
 
 - Client(依頼者)の役  
